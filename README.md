@@ -71,12 +71,19 @@ The negative R² score shows that the current forecasting approach has limitatio
 
 ## Visualisations
 
-The project includes:
+The project includes the following visualisations:
 
-- Daily Total Orders graph
-- Actual vs Predicted Demand graph
-- Final Sales Demand Forecast graph
+1. **Daily Total Orders**
+   - Shows the historical total order demand across the dataset.
+   - File: `daily_total_orders.png`
 
+2. **Actual vs Predicted Total Orders**
+   - Compares the actual demand values with the Random Forest predictions.
+   - File: `actual_vs_predicted.png`
+
+3. **Final Sales Demand Forecast**
+   - Shows the actual demand alongside the final Random Forest forecast.
+   - File: `final_sales_demand_forecast.png`
 ## Business Insights
 
 - Historical order data can be analysed to identify demand patterns.
