@@ -51,9 +51,23 @@ The models were evaluated using:
 
 ## Results
 
-The Random Forest model produced a lower MAE and MSE than the Linear Regression model on the test data.
+Two machine learning models were tested using a chronological train-test split.
 
-However, the R² score remained negative, indicating that the current forecasting approach has limitations and requires further improvement for stronger predictive performance.
+### Linear Regression
+
+- MAE: 74.8565
+- MSE: 7198.6535
+- R² Score: -0.9833
+
+### Random Forest Regressor
+
+- MAE: 64.8030
+- MSE: 5805.5619
+- R² Score: -0.5995
+
+Among the tested models, the Random Forest model produced lower MAE and MSE than Linear Regression.
+
+The negative R² score shows that the current forecasting approach has limitations and requires further improvement for stronger predictive performance.
 
 ## Visualisations
 
